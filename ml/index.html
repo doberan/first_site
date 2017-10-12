@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="Shift_JIS"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja" lang="ja">
+<head>
+<meta name="robots" content="noindex,nofollow" />
+<meta http-equiv="Content-Type" content="text/html; charset=Shift_JIS" />
+<meta http-equiv="Content-Script-Type" content="text/javascript" />
+<meta http-equiv="Content-Style-Type" content="text/css" />
+<title>学務システムのリニューアルに関するアンケート</title>
+<meta name="revisit_after" content="7 days" />
+<meta http-equiv="pragma" content="no-cache" />
+<link rel="index" href="index.html" />
+</head>
+<body>
+<div id="mf_wrapper">
+<div id="mf_header">
+<h1>学務システムのリニューアルに関するアンケート</h1>
+<h2>大学事務局によるリニューアルに寄せて</h2>
+<p>ご自身が「デジキャン」を使用されていて不便に感じていることや、ご要望が有れば、<span class="notice">遠慮なく記入してください。</span>要望が反映されるのか、されないのかは、事務局と開発会社の連携が上手く行くかどうかに掛かっています、後輩の為にも皆さんの生の声をお寄せください。<br />
+入力いただいた内容はそのまま事務局の担当者に提供します。<br>
+以下のフォームに必要事項を入力のうえ、送信ボタンを押してください。</p>
+</div>
+
+<form id="mailform" method="post" action="mailform/send.cgi" onsubmit="return sendmail(this);">
+<table border="0" cellspacing="0" cellpadding="0" class="mailform">
+<tr>
+<th>学年<span>*</span><p>grade</p></th>
+<td>
+<input type="radio" name="学年(必須)" value="1年生" /> 1年生
+<input type="radio" name="学年(必須)" value="2年生" /> 2年生
+<input type="radio" name="学年(必須)" value="3年生" /> 3年生
+<input type="radio" name="学年(必須)" value="4年生" /> 4年生
+<input type="radio" name="学年(必須)" value="5年生" /> 5年生
+<input type="radio" name="学年(必須)" value="6年生" /> 6年生
+<input type="radio" name="学年(必須)" value="7年生" /> 7年生
+<input type="radio" name="学年(必須)" value="8年生" /> 8年生
+<input type="radio" name="学年(必須)" value="9年生" /> 9年生
+</td>
+</tr>
+<tr>
+<th>デジキャンについて当てはまるもの<strong style="font-weight: bold; color: red;">全てに</strong>チェックを付けてください<span>*</span></th>
+<td>
+<input type="checkbox" name="要望その1" value="現状のデザイン・機能で充分" />今のデジキャンは使いやすいので、ずっとこのまま使いたい<br />
+<input type="checkbox" value="問い合わせ先が何処にあるのかが解らない" name="要望その1">問い合わせ先が何処にあるのかが解らない<br />
+<input type="checkbox" name="要望その1" value="各告知の担当者の氏名を表示すべき" />担当者の名前をきちんと記入して欲しい<br />
+<input type="checkbox" name="要望その1" value="くだけすぎた文章表現は学内公式文書に相応しくない" />文調ががラフ過ぎる告知が有り、学内公式の文書としては気になる<br />
+<input type="checkbox" name="要望その1" value="日本語の案内だけでは意味が通じない" />日本語の案内だけでは読み辛い、意味が通じない文章が有る<br />
+<input type="checkbox" value="更新された部分が何処にあるのかが解らない" name="要望その1">更新された部分が何処にあるのかが解らない<br />
+<input type="checkbox" value="ログインしないと緊急連絡が見られないのが非常に不便" name="要望その1">ログインしないと緊急連絡が見られないのは不便である<br />
+<input type="checkbox" value="お知らせが見づらい" name="ご感想">お知らせが見づらい<br />
+<input type="checkbox" value="重要連絡を目立つ様にして欲しい" name="ご依頼">ランチメニューなどどうでも良いので、重要連絡を目立つ様にして欲しい！<br />
+<input type="checkbox" value="ランチメニューは不要" name="ご依頼">ランチメニューの定期予告は貼り紙で充分である<br />
+<input type="checkbox" value="告知文中から該当項目に飛べないのが不便" name="要望その1">文中から該当項目に飛べないのが非常に不便である<br />
+<input type="checkbox" value="Googleアカウントにログインしないと使用できない機能であることの説明を表示すべき" name="要望その1">Googleアカウントにログインしないと使用できない機能であることの説明を書いて欲しい<br />
+<input type="checkbox" value="色彩構成・デザインが悪すぎる・視認性が低い" name="要望その1">色分けが成されておらず、デザインが悪いので視認性が低い<br />
+<input type="checkbox" value="リリース前の動作確認を徹底すべき" name="要望その1">リリース前にきちんと動作確認をしているのか疑問
+<input type="checkbox" value="キャリアセンターの告知に不足点がある" name="要望その1">企業説明会のお知らせに、会社名と業態をしっかり明示して欲しい・参加のしようがない
+</td>
+</tr>
+<tr>
+<th>その他の要望が有れば書いてください</th>
+<td><textarea name="要望その2" rows="10" cols="80"></textarea></td>
+</tr>
+<tr>
+<th><span>*</span>は必須項目です。</th>
+<td><input type="submit" value="　回答する　" /> <input type="reset" name="reset" value="　リセット　" /></td>
+</tr>
+</table>
+</form>
+<link rel="stylesheet" href="mailform/mailform.css" type="text/css">
+<script type="text/javascript" src="mailform/mailform.js" charset="utf-8"></script>
+<script type="text/javascript" src="mailform/postcodes/get.cgi?js" charset="utf-8"></script>
+</div>
+</body>
+</html>

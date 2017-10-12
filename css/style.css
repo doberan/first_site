@@ -1,0 +1,161 @@
+@charset "utf-8";
+
+body{
+padding:0;
+margin:0;
+}
+
+p{
+padding:0;
+margin:0;
+}
+/*──────────────────index.html*/
+#wrapper_index{
+background:#000;
+width:100%;
+height:100%;
+}
+
+#main{
+background:#fff;
+margin:0 20px;
+text-align:center;
+}
+
+#main img{
+width:984px;
+
+}
+
+
+map{
+background:#000;
+width:auto;
+}
+
+#wrapper_about{
+
+width:100%
+text-align:center;
+
+}
+
+
+#sakuraike{
+background:#fff;
+width:100%;
+padding:0 20%;
+
+}
+
+#sakuraike img{
+width:50%;
+text-align:center;
+}
+
+#sakuraike p{
+max-width:32em;
+}
+
+#Crime{
+background:#fff;
+width:100%;
+padding:0 20%
+
+}
+
+#Crime img{
+width:50%;
+text-align:center;
+}
+
+#Crime p{
+max-width:32em;
+}
+
+#boy_s{
+background:#fff;
+width:100%;
+padding:0 20%;
+}
+
+#boy_s img{
+width:50%;
+text-align:center;
+}
+
+#boy_s p{
+max-width:32em;
+}
+
+
+#HAZAMA{
+background:#fff;
+width:100%;
+padding:0 20%;
+}
+
+#HAZAMA img{
+width:50%;
+text-align:center;
+}
+
+#HAZAMA p{
+max-width:32em;
+}
+
+#hitominonaka{
+background:#fff;
+width:100%;
+padding:0 20%;
+}
+
+#hitominonaka img{
+width:50%;
+text-align:center;
+}
+
+#hitominonaka p{
+max-width:32em;
+}
+
+
+
+
+/*──────────────────mailform*/
+
+
+
+#mail{
+width:100%;
+
+}
+
+
+
+/*──────────────────profile*/
+
+
+body#body_profile{
+background:#555;
+}
+
+div#wrapper_profile{
+width:100%;
+background:#555;
+color:#fff;
+}
+#wrapper_profile h1{
+text-align: center;
+
+}
+div#right_text{
+background:#777;
+width:40%;
+
+}
+div#left_text{
+background: #000;
+width:40%;
+float: left;
+}
